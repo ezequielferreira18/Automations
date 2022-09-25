@@ -12,7 +12,7 @@ time.sleep(2)
 navegador.find_element('xpath', '//*[@id="login-form-username"]').send_keys('ezequiel.ferreira')
 navegador.find_element('xpath', '//*[@id="login-form-password"]').send_keys('Mentalidad3')
 navegador.find_element('xpath', '//*[@id="login-form-submit"]').click()
-time.sleep(4)
+time.sleep(5)
 navegador.find_element(By.LINK_TEXT, value='Verificar Backups').click()
 
 time.sleep(20)
